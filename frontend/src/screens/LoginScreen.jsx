@@ -3,10 +3,10 @@ import {Link,  useNavigate} from 'react-router-dom'
 import { Form, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { redirect } from 'react-router-dom'
-import Loader from '../Components/Loader'
-import Message from '../Components/Message'
+import Loader from '../components/Loader'
+import Message from '../components/Message'
 import { login } from '../actions/userActions'
-import FormContainer from '../Components/FormContainer'
+import FormContainer from '../components/FormContainer'
 
 
 

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { register } from '../actions/registerActions';
-import FormContainer from '../Components/FormContainer';
+import FormContainer from '../components/FormContainer';
 
 function RegisterScreen() {
   const [name, setName] = useState('');

@@ -16,15 +16,16 @@ function Header() {
   return (
     <Navbar expand="lg" bg='primary' variant ='dark' collapseOnSelect>
       <Container>
-        <Navbar.Brand href="/">RevMoto!</Navbar.Brand>
+        <Navbar.Brand href="/">Gabriel's OnlyFans</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/cart"><i className="fas fa-shopping-cart"></i>Cart</Nav.Link>
+            <Nav.Link href="/cart">Cart</Nav.Link>
             {userInfo ? (
               <NavDropdown title={userInfo.name} id="username">
                 <LinkContainer to="/profile">
                   <NavDropdown.Item>Profile</NavDropdown.Item>
+                  
                 </LinkContainer>
                 <NavDropdown.Item onClick={logoutHandler}>
                   Logout
